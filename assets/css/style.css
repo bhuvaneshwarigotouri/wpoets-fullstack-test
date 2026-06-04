@@ -1,0 +1,30 @@
+.square-image{
+    aspect-ratio:1/1;
+    object-fit:cover;
+    width:100%;
+}
+
+.nav-pills .nav-link{
+    margin-bottom:10px;
+}
+
+.content-slider{
+    padding:20px;
+}
+
+@media(max-width:768px){
+
+    .nav{
+        display:none;
+    }
+
+    .image-slider{
+        display:none;
+    }
+
+    .content-slider .slick-slide{
+        min-height:300px;
+        background-size:cover;
+        background-position:center;
+    }
+}
